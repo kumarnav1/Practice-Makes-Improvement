@@ -7,7 +7,7 @@ public class Armstrong {
             int totalDigitInNumber = 0;
 
             while (currentDigit != 0) {
-                currentDigit /= 10;
+                currentDigit = currentDigit / 10;
                 ++totalDigitInNumber;
             }
 
