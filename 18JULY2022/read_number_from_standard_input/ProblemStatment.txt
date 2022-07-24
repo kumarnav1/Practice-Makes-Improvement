@@ -1,0 +1,28 @@
+How to Read and Print an Integer value in Java
+
+Difficulty Level : Basic
+Last Updated : 05 Dec, 2018
+The given task is to take an integer as input from the user and print that integer in Java language.
+
+
+
+In below program, the syntax and procedures to take the integer as input from the user is shown in Java language.
+
+Steps:
+
+The user enters an integer value when asked.
+This value is taken from the user with the help of nextInt() method of Scanner Class. The nextInt() method, in Java, reads the next integer value from the console into the specified variable.
+Syntax:
+
+variableOfIntType = ScannerObject.nextInt();
+
+where variableOfIntType is the variable
+in which the input value is to be stored.
+And ScannerObject is the beforehand created
+object of the Scanner class.
+This entered value is now stored in the variableOfIntType.
+Now to print this value, System.out.println() or System.out.print() method is used. The System.out.println() method, in Java, prints the value passed as the parameter to it, on the console screen and the changes the cursor to the next line on the console. Whereas System.out.print() method, in Java, prints the value passed as the parameter to it, on the console screen and the cursor remains on the next character of the last printed character on the console.
+Syntax:
+
+System.out.println(variableOfXType);
+Hence, the integer value is successfully read and printed.
